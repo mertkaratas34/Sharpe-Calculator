@@ -53,7 +53,7 @@ float Sharpe_Oranini_Hesapla(const float yatirim_getirisi, float risksiz_faiz_or
 return (yatirim_getirisi - risksiz_faiz_orani) / Std_Sapma; //Sharpe Orani Hesaplama Formülü
 }
 
-//Hesaplanan sharpe oranına göre yorum
+//Hesaplanan sharpe oranına göre
 
 void Sharpe_oranini_yorumla(float ratio) {
     printf("Yorum:");
